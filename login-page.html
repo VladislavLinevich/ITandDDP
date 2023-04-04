@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Movie-web</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <header class="header">
+        <input class="toggle-input" type="checkbox" id="toggle">
+        <div class="navbar">
+            <h1 class="navbar__headline">
+                <span class="navbar__movie-text">Movie</span> <span class="navbar__website-text">Website</span>
+            </h1>
+            <form action="" class="search-bar">
+                <input class="search-bar__input" type="text" placeholder="Фильмы, сериалы, персоны">
+                <button class="search-bar__button" type="submit"><img src="images/search.png" alt=""></button>
+            </form>
+            
+            <label class="navbar-toggler" for="toggle">
+                <span class="navbar-toggler__bar"></span>
+                <span class="navbar-toggler__bar"></span>
+                <span class="navbar-toggler__bar"></span>
+            </label>
+            <nav class="inline-nav">
+                <ul>
+                    <li><a class="inline-nav__link " href="main-page.html"><span>Главная</span></a></li>
+                    <li><a class="inline-nav__link" href="category-page.html">Фильмы</a></li>
+                    <li><a class="inline-nav__link" href="">Сериалы</a></li>
+                </ul>
+            </nav>
+            <a class="inline-nav__link inline-nav__link_active" href="login-page.html">Войти</a>
+        </div>
+        <ul class="nav-list">
+            <li><a class="nav-list__link" href="main-page.html"><span>Главная</span></a></li>
+            <li><a class="nav-list__link" href="category-page.html">Фильмы</a></li>
+            <li><a class="nav-list__link" href="">Сериалы</a></li>
+            <form action="" class="search-bar search-bar_mobile">
+                <input class="search-bar__input" type="text" placeholder="Фильмы, сериалы, персоны">
+                <button class="search-bar__button" type="submit"><img src="images/search.png" alt=""></button>
+            </form>
+            <li><a class="nav-list__link nav-list__link_active" href="login-page.html">Вход</a></li>
+            
+        </ul>
+        <h2 class = "header__description"> Все о кино</h2>
+    </header>
+    <body>
+        <form class="authorization" method="post">
+            <h2>Вход</h2>
+            <input class="authorization__input" required id="name" type="text" name="name" placeholder="Имя пользователя"/>
+            <input class="authorization__input" required id="password" type="password" name="password" placeholder="Пароль"/>
+            <button class="authorization__button" type="submit">Войти</button> 
+            <h3>Нет аккаунта?</h3>
+            <a class="authorization__link" href="register-page.html">Зарегистрироваться</a>
+        </form>
+    </body>
+</html>

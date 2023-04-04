@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Movie-web</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <header class="header">
+        <input class="toggle-input" type="checkbox" id="toggle">
+        <div class="navbar">
+            <h1 class="navbar__headline">
+                <span class="navbar__movie-text">Movie</span> <span class="navbar__website-text">Website</span>
+            </h1>
+            <form action="" class="search-bar">
+                <input class="search-bar__input" type="text" placeholder="Фильмы, сериалы, персоны">
+                <button class="search-bar__button" type="submit"><img src="images/search.png" alt=""></button>
+            </form>
+            
+            <label class="navbar-toggler" for="toggle">
+                <span class="navbar-toggler__bar"></span>
+                <span class="navbar-toggler__bar"></span>
+                <span class="navbar-toggler__bar"></span>
+            </label>
+            <nav class="inline-nav">
+                <ul>
+                    <li><a class="inline-nav__link" href="main-page.html"><span>Главная</span></a></li>
+                    <li><a class="inline-nav__link" href="category-page.html">Фильмы</a></li>
+                    <li><a class="inline-nav__link" href="">Сериалы</a></li>
+                </ul>
+            </nav>
+            <a class="inline-nav__link" href="login-page.html">Войти</a>
+        </div>
+        <ul class="nav-list">
+            <li><a class="nav-list__link" href="main-page.html"><span>Главная</span></a></li>
+            <li><a class="nav-list__link" href="category-page.html">Фильмы</a></li>
+            <li><a class="nav-list__link" href="">Сериалы</a></li>
+            <form action="" class="search-bar search-bar_mobile">
+                <input class="search-bar__input" type="text" placeholder="Фильмы, сериалы, персоны">
+                <button class="search-bar__button" type="submit"><img src="images/search.png" alt=""></button>
+            </form>
+            <li><a class="nav-list__link" href="login-page.html">Вход</a></li>
+            
+        </ul>
+        <h2 class = "header__description"> Все о кино</h2>
+    </header>
+    <body>
+    <div class="detail-container">
+        <img class="detail-container__movie-img" src="images/avatar2.jpg">
+        <div class="detail-container__movie-info">
+            <p> Аватар: Путь воды </p>
+            <div class="detail-container__rating-row">
+                <p>Оценка</p>
+                <p><span class="positive">7.9</span></p>
+            </div>
+            <p> О фильме </p>
+            <div class="detail-container__info-item">
+                <p>Год</p>
+                <p>2022</p>
+            </div>
+            <div class="detail-container__info-item">
+                <p>Страна</p>
+                <p>США</p>
+            </div>
+            <div class="detail-container__info-item">
+                <p>Жанр</p>
+                <p>фантастика, фэнтези, боевик, приключения</p>
+            </div>
+            <div class="detail-container__info-item">
+                <p>Слоган</p>
+                <p>—</p>
+            </div>
+            <div class="detail-container__info-item">
+                <p>Режиссер</p>
+                <p><a href="staff-page.html">Джеймс Кэмерон</a></p>
+            </div>
+            <div class="detail-container__info-item">
+                <p>Бюджет</p>
+                <p>$350 000 000</p>
+            </div>
+            <div class="detail-container__info-item">
+                <p>Сборы в США</p>
+                <p>$350 000 000</p>
+            </div>
+            <div class="detail-container__info-item">
+                <p>Сборы в мире</p>
+                <p>+ $1 611 362 187 = $2 281 994 187 </p>
+            </div>
+        </div>
+    </div>
+    <div class="description">
+        <p> Краткая информация</p>
+        <p> После принятия образа аватара солдат Джейк Салли становится предводителем народа на'ви и берет на себя миссию по защите новых друзей от корыстных бизнесменов с Земли. Теперь ему есть за кого бороться — с Джейком его прекрасная возлюбленная Нейтири. Когда на Пандору возвращаются до зубов вооруженные земляне, Джейк готов дать им отпор.</p>
+    </div>
+    <div class="movie-trailer">
+        <p>Трейлер</p>
+        <iframe class="movie-trailer__trailer" src="https://www.youtube.com/embed/yKrzARVuePw" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="actors">
+        <p>В главных ролях</p>
+        <div class="scroll-row">
+            <a class="actor-image" href="staff-page.html">
+                <img src="images/Sam_Worthington.jpg" alt="...">
+                <p class="actor-image__name"> Сэм Уортингтон</p>
+            </a>
+            <a class="actor-image" href="staff-page.html">
+                <img src="images/Sam_Worthington.jpg" alt="...">
+                <p class="actor-image__name"> Сэм Уортингтон</p>
+            </a>
+            <a class="actor-image" href="staff-page.html">
+                <img src="images/Sam_Worthington.jpg" alt="...">
+                <p class="actor-image__name"> Сэм Уортингтон</p>
+            </a>
+            <a class="actor-image" href="staff-page.html">
+                <img src="images/Sam_Worthington.jpg" alt="...">
+                <p class="actor-image__name"> Сэм Уортингтон</p>
+            </a>
+            <a class="actor-image" href="staff-page.html">
+                <img src="images/Sam_Worthington.jpg" alt="...">
+                <p class="actor-image__name"> Сэм Уортингтон</p>
+            </a>
+            <a class="actor-image" href="staff-page.html">
+                <img src="images/Sam_Worthington.jpg" alt="...">
+                <p class="actor-image__name"> Сэм Уортингтон</p>
+            </a>
+            <a class="actor-image" href="staff-page.html">
+                <img src="images/Sam_Worthington.jpg" alt="...">
+                <p class="actor-image__name"> Сэм Уортингтон</p>
+            </a>
+        </div>
+    </div>
+    <div class="send-review-container">
+        <p>Оставить отзыв</p>
+        <form class="send-review-form"  method="post" action="">
+            <div class="send-review-form__rating">
+                <p>Оценка</p>
+                <div class="rate">
+                    <input type="radio" id="star10" name="rate" value="10" required/>
+                    <label for="star10" title="text">10</label>
+                    <input type="radio" id="star9" name="rate" value="9" />
+                    <label for="star9" title="text">9</label>
+                    <input type="radio" id="star8" name="rate" value="8" />
+                    <label for="star8" title="text">8</label>
+                    <input type="radio" id="star7" name="rate" value="7" />
+                    <label for="star7" title="text">7</label>
+                    <input type="radio" id="star6" name="rate" value="6" />
+                    <label for="star6" title="text">6</label>
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1</label>
+                </div>
+            </div>
+            <input class="send-review-form__input-headline" required id="hedline" type="text" name="headline" maxlength="40" placeholder="Заголовок"/>
+            <textarea class="send-review-form__textarea-comment" required id="review" name="comment" placeholder="Текст" maxlength="500"></textarea>
+            <button class="send-review-form__send-button" type="submit">Отправить</button> 
+        </form>
+    </div>
+    <div class="reviews">
+        <p>Отзывы</p>
+        <div class="review-container review-container_positive">
+            <p>Nickname</p>
+            <p>Оценка: <span class="positive">7</span></p>
+            <h2>Заголовок</h2>
+            <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</p>
+    </div>
+        </div>
+    </body>
+</html>

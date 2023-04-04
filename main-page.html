@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Movie-web</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <header class="header">
+        <input class="toggle-input" type="checkbox" id="toggle">
+        <div class="navbar">
+            <h1 class="navbar__headline">
+                <span class="navbar__movie-text">Movie</span> <span class="navbar__website-text">Website</span>
+            </h1>
+            <form action="" class="search-bar">
+                <input class="search-bar__input" type="text" placeholder="Фильмы, сериалы, персоны">
+                <button class="search-bar__button" type="submit"><img src="images/search.png" alt=""></button>
+            </form>
+            
+            <label class="navbar-toggler" for="toggle">
+                <span class="navbar-toggler__bar"></span>
+                <span class="navbar-toggler__bar"></span>
+                <span class="navbar-toggler__bar"></span>
+            </label>
+            <nav class="inline-nav">
+                <ul>
+                    <li><a class="inline-nav__link inline-nav__link_active" href="main-page.html"><span>Главная</span></a></li>
+                    <li><a class="inline-nav__link" href="category-page.html">Фильмы</a></li>
+                    <li><a class="inline-nav__link" href="">Сериалы</a></li>
+                </ul>
+            </nav>
+            <a class="inline-nav__link" href="login-page.html">Войти</a>
+        </div>
+        <ul class="nav-list">
+            <li><a class="nav-list__link nav-list__link_active" href="main-page.html"><span>Главная</span></a></li>
+            <li><a class="nav-list__link" href="category-page.html">Фильмы</a></li>
+            <li><a class="nav-list__link" href="">Сериалы</a></li>
+            <form action="" class="search-bar search-bar_mobile">
+                <input class="search-bar__input" type="text" placeholder="Фильмы, сериалы, персоны">
+                <button class="search-bar__button" type="submit"><img src="images/search.png" alt=""></button>
+            </form>
+            <li><a class="nav-list__link" href="login-page.html">Вход</a></li>
+            
+        </ul>
+        <h2 class = "header__description"> Все о кино</h2>
+    </header>
+    <body>
+        <div class="category">
+            <a class="category__name" href="category-page.html">Фильмы ></a>
+            <div class="scroll-row">
+                <a class="poster" href="movie-detail.html">
+                    <img class="poster__img" src="images/avatar2.jpg" alt="...">
+                    <div class="poster__rating poster__rating_positive">
+                        <p class="poster__rating-score">7.9</p>
+                    </div>
+                    <p class="poster__title"> Аватар: путь воды</p>
+                    <p class="poster__tagline"> <q>Слоган</q></p>
+                </a>
+                <a class="poster" href="">
+                    <img class="poster__img" src="images/americanHistoryX.jpg" alt="...">
+                    <div class="poster__rating poster__rating_positive">
+                        <p class="poster__rating-score">7.9</p>
+                    </div>
+                    <p class="poster__title"> Американская история Х</p>
+                    <p class="poster__tagline"> <q>Преступление и наказание</q></p>
+                </a>
+                <a class="poster" href="">
+                    <img class="poster__img" src="images/Blade runner 2049.jpg" alt="...">
+                    <div class="poster__rating poster__rating_positive">
+                        <p class="poster__rating-score">7.9</p>
+                    </div>
+                    <p class="poster__title"> Бегущий по лезвию: 2049</p>
+                    <p class="poster__tagline"> <q>Ключ к будущему наконец найден</q></p>
+                </a>
+                <a class="poster" href="">
+                    <img  class="poster__img" src="images/Blade runner 2049.jpg" alt="...">
+                    <div class="poster__rating poster__rating_positive">
+                        <p class="poster__rating-score">7.9</p>
+                    </div>
+                    <p class="poster__title"> Бегущий по лезвию: 2049</p>
+                    <p class="poster__tagline"> <q>Ключ к будущему наконец найден</q></p>
+                </a>
+                <a class="poster" href="">
+                    <img  class="poster__img"src="images/Blade runner 2049.jpg" alt="...">
+                    <div class="poster__rating poster__rating_positive">
+                        <p class="poster__rating-score">7.9</p>
+                    </div>
+                    <p class="poster__title"> Бегущий по лезвию: 2049</p>
+                    <p class="poster__tagline"> <q>Ключ к будущему наконец найден</q></p>
+                </a>
+            </div>
+        </div>
+        <div class="category">
+            <a class="category__name" href="">Сериалы ></a>
+            <div class="scroll-row">
+                <a class="poster" href="">
+                    <img class="poster__img" src="images/Westworld.jpg" alt="...">
+                    <div class="poster__rating poster__rating_positive">
+                        <p class="poster__rating-score">7.9</p>
+                    </div>
+                    <p class="poster__title"> Мир дикого запада</p>
+                    <p class="poster__tagline"> <q>Здесь начинается жизнь</q></p>
+                </a>
+                <a class="poster" href="">
+                    <img class="poster__img" src="images/dexter.jpg" alt="...">
+                    <div class="poster__rating poster__rating_positive">
+                        <p class="poster__rating-score">7.9</p>
+                    </div>
+                    <p class="poster__title"> Декстер</p>
+                    <p class="poster__tagline"> <q>Забирает жизнь</q></p>
+                </a>
+                <a class="poster" href="">
+                    <img class="poster__img" src="images/Game of thrones.jpg" alt="...">
+                    <div class="poster__rating poster__rating_positive">
+                        <p class="poster__rating-score">7.9</p>
+                    </div>
+                    <p class="poster__title"> Игра престолов</p>
+                    <p class="poster__tagline" > <q>Победа или смерть</q></p>
+                </a>
+                <a class="poster" href="">
+                    <img  class="poster__img" src="images/Game of thrones.jpg" alt="...">
+                    <div class="poster__rating poster__rating_positive">
+                        <p class="poster__rating-score">7.9</p>
+                    </div>
+                    <p class="poster__title"> Игра престолов</p>
+                    <p class="poster__tagline" > <q>Победа или смерть</q></p>
+                </a>
+                <a class="poster" href="" >
+                    <img class="poster__img" src="images/Game of thrones.jpg" alt="...">
+                    <div class="poster__rating poster__rating_positive">
+                        <p class="poster__rating-score">7.9</p>
+                    </div>
+                    <p class="poster__title"> Игра престолов</p>
+                    <p class="poster__tagline" > <q>Победа или смерть</q></p>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

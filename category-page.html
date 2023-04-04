@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Movie-web</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <header class="header">
+        <input class="toggle-input" type="checkbox" id="toggle">
+        <div class="navbar">
+            <h1 class="navbar__headline">
+                <span class="navbar__movie-text">Movie</span> <span class="navbar__website-text">Website</span>
+            </h1>
+            <form action="" class="search-bar">
+                <input class="search-bar__input" type="text" placeholder="Фильмы, сериалы, персоны">
+                <button class="search-bar__button" type="submit"><img src="images/search.png" alt=""></button>
+            </form>
+            
+            <label class="navbar-toggler" for="toggle">
+                <span class="navbar-toggler__bar"></span>
+                <span class="navbar-toggler__bar"></span>
+                <span class="navbar-toggler__bar"></span>
+            </label>
+            <nav class="inline-nav">
+                <ul>
+                    <li><a class="inline-nav__link " href="main-page.html"><span>Главная</span></a></li>
+                    <li><a class="inline-nav__link inline-nav__link_active" href="category-page.html">Фильмы</a></li>
+                    <li><a class="inline-nav__link" href="">Сериалы</a></li>
+                </ul>
+            </nav>
+            <a class="inline-nav__link" href="login-page.html">Войти</a>
+        </div>
+        <ul class="nav-list">
+            <li><a class="nav-list__link " href="main-page.html"><span>Главная</span></a></li>
+            <li><a class="nav-list__link nav-list__link_active" href="category-page.html">Фильмы</a></li>
+            <li><a class="nav-list__link" href="">Сериалы</a></li>
+            <form action="" class="search-bar search-bar_mobile">
+                <input class="search-bar__input" type="text" placeholder="Фильмы, сериалы, персоны">
+                <button class="search-bar__button" type="submit"><img src="images/search.png" alt=""></button>
+            </form>
+            <li><a class="nav-list__link" href="login-page.html">Вход</a></li>
+            
+        </ul>
+        <h2 class = "header__description"> Все о кино</h2>
+    </header>
+    <body>
+    <div class="sort-container">    
+        <form class="sort-list" method="get">
+            <details class="sort-list__item">
+                <summary class="sort-list__item-name">Страны</summary>
+                <select>
+                    <option value="All countries">Все страны</option>
+                    <option value="USA">США</option>
+                    <option value="Canada" selected>Канада</option>
+                </select>
+            </details>
+            <details class="sort-list__item">
+                <summary class="sort-list__item-name">Жанры</summary>
+                <select>
+                    <option value="All genres">Все жанры</option>
+                    <option value="Fantasy">Фэнтези</option>
+                    <option value="Action" selected>Боевик</option>
+                </select>
+            </details>
+            <details class="sort-list__item">
+                <summary class="sort-list__item-name">Годы</summary>
+                <select>
+                    <option value="All years">Все годы</option>
+                    <option value="2017">2017</option>
+                    <option value="2022" selected>2022</option>
+                </select>
+            </details>
+            <button class="sort-list__button" type="submit">Поиск</button> 
+        </form>
+        <div class="movie-category-list">
+            <p class="movie-category-list__name">Фильмы</p>
+            <div class="wrap-row">
+                <a class="poster" href="">
+                    <img class="poster__img poster__img_size_m" src="images/avatar2.jpg" alt="...">
+                    <div class="poster__rating poster__rating_positive">
+                        <p class="poster__rating-score">7.9</p>
+                    </div>
+                    <p class="poster__title poster__title_size_m"> Аватар: путь воды</p>
+                    <p class="poster__tagline poster__tagline_size_m"> <q>Слоган</q></p>
+                </a>
+                <a class="poster" href="">
+                    <img class="poster__img poster__img_size_m" src="images/americanHistoryX.jpg" alt="...">
+                    <div class="poster__rating poster__rating_neutral">
+                        <p class="poster__rating-score">6.9</p>
+                    </div>
+                    <p class="poster__title poster__title_size_m"> Американская история Х</p>
+                    <p class="poster__tagline poster__tagline_size_m"> <q>Преступление и наказание</q></p>
+                </a>
+                <a class="poster" href="">
+                    <img class="poster__img poster__img_size_m" src="images/Blade runner 2049.jpg" alt="...">
+                    <div class="poster__rating poster__rating_negative">
+                        <p class="poster__rating-score">3.9</p>
+                    </div>
+                    <p class="poster__title poster__title_size_m"> Бегущий по лезвию: 2049</p>
+                    <p class="poster__tagline poster__tagline_size_m"> <q>Ключ к будущему наконец найден</q></p>
+                </a>
+                 <a class="poster" href="">
+                    <img class="poster__img poster__img_size_m" src="images/Blade runner 2049.jpg" alt="...">
+                    <div class="poster__rating poster__rating_negative">
+                        <p class="poster__rating-score">3.9</p>
+                    </div>
+                    <p class="poster__title poster__title_size_m"> Бегущий по лезвию: 2049</p>
+                    <p class="poster__tagline poster__tagline_size_m"> <q>Ключ к будущему наконец найден</q></p>
+                </a>
+               <a class="poster" href="">
+                    <img class="poster__img poster__img_size_m" src="images/Blade runner 2049.jpg" alt="...">
+                    <div class="poster__rating poster__rating_negative">
+                        <p class="poster__rating-score">3.9</p>
+                    </div>
+                    <p class="poster__title poster__title_size_m"> Бегущий по лезвию: 2049</p>
+                    <p class="poster__tagline poster__tagline_size_m"> <q>Ключ к будущему наконец найден</q></p>
+                </a> 
+                <a class="poster" href="">
+                    <img class="poster__img poster__img_size_m" src="images/avatar2.jpg" alt="...">
+                    <div class="poster__rating poster__rating_positive">
+                        <p class="poster__rating-score">7.9</p>
+                    </div>
+                    <p class="poster__title poster__title_size_m"> Аватар: путь воды</p>
+                    <p class="poster__tagline poster__tagline_size_m"> <q>Слоган</q></p>
+                </a>
+                <a class="poster" href="">
+                    <img class="poster__img poster__img_size_m" src="images/americanHistoryX.jpg" alt="...">
+                    <div class="poster__rating poster__rating_neutral">
+                        <p class="poster__rating-score">6.9</p>
+                    </div>
+                    <p class="poster__title poster__title_size_m"> Американская история Х</p>
+                    <p class="poster__tagline poster__tagline_size_m"> <q>Преступление и наказание</q></p>
+                </a>
+                <a class="poster" href="">
+                    <img class="poster__img poster__img_size_m" src="images/Blade runner 2049.jpg" alt="...">
+                    <div class="poster__rating poster__rating_negative">
+                        <p class="poster__rating-score">3.9</p>
+                    </div>
+                    <p class="poster__title poster__title_size_m"> Бегущий по лезвию: 2049</p>
+                    <p class="poster__tagline poster__tagline_size_m"> <q>Ключ к будущему наконец найден</q></p>
+                </a>
+                 <a class="poster" href="">
+                    <img class="poster__img poster__img_size_m" src="images/Blade runner 2049.jpg" alt="...">
+                    <div class="poster__rating poster__rating_negative">
+                        <p class="poster__rating-score">3.9</p>
+                    </div>
+                    <p class="poster__title poster__title_size_m"> Бегущий по лезвию: 2049</p>
+                    <p class="poster__tagline poster__tagline_size_m"> <q>Ключ к будущему наконец найден</q></p>
+                </a>
+               <a class="poster" href="">
+                    <img class="poster__img poster__img_size_m" src="images/Blade runner 2049.jpg" alt="...">
+                    <div class="poster__rating poster__rating_negative">
+                        <p class="poster__rating-score">3.9</p>
+                    </div>
+                    <p class="poster__title poster__title_size_m"> Бегущий по лезвию: 2049</p>
+                    <p class="poster__tagline poster__tagline_size_m"> <q>Ключ к будущему наконец найден</q></p>
+                </a> 
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>
